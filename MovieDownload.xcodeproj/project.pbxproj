@@ -14,6 +14,7 @@
 		A92AF16D1AC9BADF0000E352 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92AF16C1AC9BADF0000E352 /* Images.xcassets */; };
 		A92AF1701AC9BADF0000E352 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92AF16E1AC9BADF0000E352 /* LaunchScreen.xib */; };
 		A92AF17C1AC9BADF0000E352 /* MovieDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A92AF17B1AC9BADF0000E352 /* MovieDownloadTests.m */; };
+		A92AF1861AC9BFD10000E352 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92AF1851AC9BFD10000E352 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A92AF1751AC9BADF0000E352 /* MovieDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92AF17A1AC9BADF0000E352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92AF17B1AC9BADF0000E352 /* MovieDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDownloadTests.m; sourceTree = "<group>"; };
+		A92AF1851AC9BFD10000E352 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92AF1861AC9BFD10000E352 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		A92AF1531AC9BADF0000E352 = {
 			isa = PBXGroup;
 			children = (
+				A92AF1851AC9BFD10000E352 /* MediaPlayer.framework */,
 				A92AF15E1AC9BADF0000E352 /* MovieDownload */,
 				A92AF1781AC9BADF0000E352 /* MovieDownloadTests */,
 				A92AF15D1AC9BADF0000E352 /* Products */,
